@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Project OpenWatch is a new initiative founded by Blocks Wearables, to be announced on the 15th of March 2018.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://openwatchproject.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: openwatchproject
+twitter_username: openwatchproj
 github_username:  openwatchproject
 
 # Build settings
