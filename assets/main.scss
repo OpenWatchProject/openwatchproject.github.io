@@ -2,10 +2,31 @@
 ---
 @import "minima";
 
-header > .wrapper {
+.site-title {
+    padding-left: 50px;
+    position: relative;
+}
+.site-title::before {
     background-image: url(/img/logo.png);
     background-size: 30px;
-    background-position: 10px center;
+    background-position: center;
     background-repeat: no-repeat;
-    padding-left: 40px;
+
+    content: '';
+    display: block;
+    position: absolute;
+
+    height: 50px;
+    width: 50px;
+
+    left: 0px;
+    top: 0px;
+}
+
+footer .footer-col-2 {
+    width: calc(25% - (30px / 2));
+}
+
+footer .footer-col-3 {
+    width: calc(40% - (30px / 2));
 }
